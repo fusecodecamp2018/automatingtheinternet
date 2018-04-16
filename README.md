@@ -8,10 +8,15 @@ After these dependencies are installed, run pip install pyautogui (or pip3 on OS
 
 Ideas:
 Twitter Bot: https://www.digitalocean.com/community/tutorials/how-to-create-a-twitterbot-with-python-3-and-the-tweepy-library
+
 Reddit Bot: https://github.com/shantnu/RedditBot
+
 Sending Emails - https://automatetheboringstuff.com/chapter16/
+
 Sending Text Messages - https://automatetheboringstuff.com/chapter16/
+
 Automate Game playing - http://inventwithpython.com/blog/2014/12/17/programming-a-bot-to-play-the-sushi-go-round-flash-game/
+
 Web Scraping - https://automatetheboringstuff.com/chapter11/
 
 
