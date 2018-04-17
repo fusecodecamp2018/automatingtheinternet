@@ -8,6 +8,7 @@ pyobjc-framework-quartz = "*"
 pyobjc-core = "*"
 pyobjc = "*"
 pyautogui = "*"
+tweepy = "*"
 
 [dev-packages]
 
