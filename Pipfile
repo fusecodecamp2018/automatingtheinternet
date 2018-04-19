@@ -9,6 +9,7 @@ pyobjc-core = "*"
 pyobjc = "*"
 pyautogui = "*"
 tweepy = "*"
+praw = "*"
 
 [dev-packages]
 
