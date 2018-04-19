@@ -43,4 +43,4 @@ def query_twitter_for_tweets():
             break
 
 
-query_twitter_for_tweets()
+tweet()
