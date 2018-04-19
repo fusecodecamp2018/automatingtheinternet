@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ec76edf8ac95146744d0d70c8a93ec193d23b5941cde4586c030607e9eab9af4"
+            "sha256": "40a50e6ff12670a9ee3391c9a0335b7884ebe67d455524a03acf971533058a2b"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -18,10 +18,10 @@
     "default": {
         "certifi": {
             "hashes": [
-                "sha256:14131608ad2fd56836d33a71ee60fa1c82bc9d2c8d98b7bdbc631fe1b3cd1296",
-                "sha256:edbc3f203427eef571f79a7692bb160a2b0f7ccaa31953e99bd17e307cf63f7d"
+                "sha256:13e698f54293db9f89122b0581843a782ad0934a4fe0172d2a980ba77fc61bb7",
+                "sha256:9fa520c1bacfb634fa7af20a76bcbd3d5fb390481724c597da32c719a7dca4b0"
             ],
-            "version": "==2018.1.18"
+            "version": "==2018.4.16"
         },
         "chardet": {
             "hashes": [
@@ -91,6 +91,21 @@
                 "sha256:fe6931db24716a0845bd8c8915bd096b77c2a7043e6fc59ae9ca364fe816f08b"
             ],
             "version": "==5.1.0"
+        },
+        "praw": {
+            "hashes": [
+                "sha256:04dc118381383dc5d2ae7a16e23d074fb42abe49659a9777828c062fc90780b7",
+                "sha256:e4196a2ec10b758785e293d2cf6f25c5f97c8021b9314fd81797492815639cbd"
+            ],
+            "index": "pypi",
+            "version": "==5.4.0"
+        },
+        "prawcore": {
+            "hashes": [
+                "sha256:a8b6fda0d1f8f3135e888e4257a4e338e9866c39262031cd5a8cb91f9024f64b",
+                "sha256:cc5c32ee8c1d1de212ade0ea319a21d3448cb151cb1ccb7335ba76ca96cf8f37"
+            ],
+            "version": "==0.14.0"
         },
         "pyautogui": {
             "hashes": [
@@ -183,7 +198,6 @@
                 "sha256:e53479f9cf52185bb9d226da9960863007f75e41fcfa8ec932d087ae97552aba",
                 "sha256:fef56ca8e0c136141971ca3aec2fa5c7f873dfcff43960de97943639af132dbb"
             ],
-            "markers": "platform_release >= '11.0'",
             "version": "==4.2.1"
         },
         "pyobjc-framework-avkit": {
@@ -269,7 +283,6 @@
                 "sha256:9f5fcb31397541e64e63f61c4c74b2257d06ed4906f258e0946b22f1c3b4751a",
                 "sha256:bedefb82f15256a603a6ac55f7b7c688cc872eb176c5bebb71377afdbd15a8a8"
             ],
-            "markers": "platform_release >= '15.0'",
             "version": "==4.2.1"
         },
         "pyobjc-framework-contactsui": {
@@ -316,7 +329,6 @@
                 "sha256:bad02d64379f7bcdebf7172ac0a5b3e8b2d0c476a5d4771634d4451fdcfa9230",
                 "sha256:f5ba05e142aa5c7ea1d966f32db1092f8eee0d85d36840e51c011fb5f432d409"
             ],
-            "markers": "platform_release >= '10.0'",
             "version": "==4.2.1"
         },
         "pyobjc-framework-coreml": {
@@ -390,7 +402,6 @@
                 "sha256:4ea0263f32707cd2303833228029bc6c4eede31d6122744995d7a971682d8a8b",
                 "sha256:76328e2f9c13b8c8bfd5970f6f0502928a9b761ff1533ec2be4b0af878fceb9b"
             ],
-            "markers": "platform_release >= '9.0'",
             "version": "==4.2.1"
         },
         "pyobjc-framework-diskarbitration": {
@@ -444,7 +455,6 @@
                 "sha256:e925e09a143edf9c6b5fdeb6ac50aca3f68ead1d8450a0450451f6a34ff4cc75",
                 "sha256:f138595ea7d7fd4c81844287359af30089d663485f98d7c6a56eea59e8028098"
             ],
-            "markers": "platform_release >= '9.0'",
             "version": "==4.2.1"
         },
         "pyobjc-framework-gamecenter": {
@@ -875,7 +885,6 @@
                 "sha256:9cee35417a7ad64dd649f721b2ce8f7369b6c219883cfbd2998fb85463745828",
                 "sha256:ab27ab7fe4a19de6b7e9104ac4db1010399d05347f9fdd332e998f51ef3327ba"
             ],
-            "markers": "platform_release >= '13.0'",
             "version": "==4.2.1"
         },
         "pyobjc-framework-storekit": {
@@ -981,6 +990,13 @@
             ],
             "index": "pypi",
             "version": "==3.6.0"
+        },
+        "update-checker": {
+            "hashes": [
+                "sha256:59cfad7f9a0ee99f95f1dfc60f55bf184937bcab46a7270341c2c33695572453",
+                "sha256:70e39446fccf77b21192cf7a8214051fa93a636dc3b5c8b602b589d100a168b8"
+            ],
+            "version": "==0.16"
         },
         "urllib3": {
             "hashes": [
