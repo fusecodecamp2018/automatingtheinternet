@@ -1,5 +1,5 @@
 # Import our Twitter credentials from credentials.py
-from credentials import *
+from twitterBot.credentials import *
 import time
 import tweepy
 
