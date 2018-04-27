@@ -1,32 +1,32 @@
-# Controlling the Keyboard and Mouse with Code
+# Welcome to Automating the Internet With Python
 
-## OS Specific Prerequisites
 
-* On Windows, install the additional required modules by running:
-    * ```pip install pyautogui```
-* On OS X, install the additional required modules by running:
-    * ```pip3 install pyobjc-framework-Quartz```
-    * ```pip3 install pyobjc-core```
-    * ```pip3 install pyobjc```
-    * ```pip3 install pyautogui```
-* On Linux, install the additional required modules by running: 
-    * ```pip3 install python3-xlib```
-    * ```apt-get install scrot``` (Scrot is a screenshot program that PyAutoGUI uses.)
-    * ```apt-get install python3-tk```
-    * ```apt-get install python3-dev```
-    * ```pip3 install pyautogui```
+## Getting Started
 
-## Ideas
-Twitter Bot: https://www.digitalocean.com/community/tutorials/how-to-create-a-twitterbot-with-python-3-and-the-tweepy-library
+To get started, please make sure you have python 3 installed. Then install pipenv:
+```
+$ pip install pipenv
+```
 
-Reddit Bot: https://github.com/shantnu/RedditBot
+Next, to install all of the needed libraries, run:
+```
+$ pipenv install
+```
 
-Sending Emails: https://automatetheboringstuff.com/chapter16/
+That sets up a virtual environment for you. You can enter the shell that contains all of the dependencies with this command:
 
-Sending Text Messages: https://automatetheboringstuff.com/chapter16/
+```
+$ pipenv shell
+```
 
-Automate Game playing: http://inventwithpython.com/blog/2014/12/17/programming-a-bot-to-play-the-sushi-go-round-flash-game/
+## Running Scripts
 
-Web Scraping: https://automatetheboringstuff.com/chapter11/
+To run any .py file (a python file or script), use the following command:
+
+```
+$ python <script_file>
+```
+
+
 
 

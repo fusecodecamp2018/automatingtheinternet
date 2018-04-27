@@ -1,8 +1,7 @@
 # Import our Twitter credentials from credentials.py
-from twitterBot.credentials import *
+from end.twitterBot.credentials import *
 import time
 import tweepy
-
 # Access and authorize our Twitter credentials from credentials.py
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -43,4 +42,3 @@ def query_twitter_for_tweets():
             break
 
 
-tweet()
