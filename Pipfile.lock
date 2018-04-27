@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "40a50e6ff12670a9ee3391c9a0335b7884ebe67d455524a03acf971533058a2b"
+            "sha256": "45da50bb3e8ed80a14a631d083867ca8cd0c308ecc6a5b3384031d33df2c66b6"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -283,6 +283,7 @@
                 "sha256:9f5fcb31397541e64e63f61c4c74b2257d06ed4906f258e0946b22f1c3b4751a",
                 "sha256:bedefb82f15256a603a6ac55f7b7c688cc872eb176c5bebb71377afdbd15a8a8"
             ],
+            "markers": "platform_release >= '15.0'",
             "version": "==4.2.1"
         },
         "pyobjc-framework-contactsui": {
@@ -329,6 +330,7 @@
                 "sha256:bad02d64379f7bcdebf7172ac0a5b3e8b2d0c476a5d4771634d4451fdcfa9230",
                 "sha256:f5ba05e142aa5c7ea1d966f32db1092f8eee0d85d36840e51c011fb5f432d409"
             ],
+            "markers": "platform_release >= '10.0'",
             "version": "==4.2.1"
         },
         "pyobjc-framework-coreml": {
@@ -975,6 +977,14 @@
                 "sha256:883ac416757eada6d3d07054ec7092ac21c7f35cb1d2cf82faf205637081f468"
             ],
             "version": "==0.8.0"
+        },
+        "selenium": {
+            "hashes": [
+                "sha256:2b6f018e55f50e9c67a67caec2f73f806f72c162fb38cf3ea79e0a8f6506bf56",
+                "sha256:5841fb30c3965866220c34d16de8e3d091e2833fcac385160a63db0c3522a297"
+            ],
+            "index": "pypi",
+            "version": "==3.11.0"
         },
         "six": {
             "hashes": [

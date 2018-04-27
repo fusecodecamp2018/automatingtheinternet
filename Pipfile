@@ -10,6 +10,7 @@ pyobjc = "*"
 pyautogui = "*"
 tweepy = "*"
 praw = "*"
+selenium = "*"
 
 [dev-packages]
 
